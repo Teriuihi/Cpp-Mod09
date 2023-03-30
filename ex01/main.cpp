@@ -1,8 +1,8 @@
 #include <iostream>
 #include "RPN.hpp"
 
-int main(int args, char **argv) {
-	if (args != 2) {
+int main(int argc, char **argv) {
+	if (argc != 2) {
 		std::cout << "Usage: " << argv[0] << " \"<expression>\"" << std::endl;
 		return 0;
 	}
