@@ -31,6 +31,7 @@ int main(int argc, char **argv) {
 	}
 
 	std::string line;
+	std::getline(inputFile, line); //Ignore header
 	while (std::getline(inputFile, line)) {
 		std::istringstream ss(line);
 		std::string dateStr, valueStr;
