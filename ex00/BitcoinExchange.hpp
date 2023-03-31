@@ -27,7 +27,8 @@ private:
 
 	// Private member functions
 	std::string findClosestDate(const std::string& date) const;
-	static time_t dateToTime(const std::string& dateStr) ;
+	static time_t dateToTime(const std::string& dateStr);
+	static int daysInMonth(int month, int year);
 };
 
 #endif
